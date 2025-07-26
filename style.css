@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header>nav{
+    /*border: 2px solid rebeccapurple;*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    width: 600px;
+
+}
+header>nav>a{
+     text-decoration: none;
+     color: black;
+     font-size: 25px;
+}
+header>nav>a:hover{
+    color: lightslategray;
+}
+#sec1{
+    height: 400px;
+    width: 100%;
+    background-image:url(https://rapido-app-assets.storage.googleapis.com/66e1052cdca1e68cc52d070e8c9631aa_1736774712641.png) ;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 25px;
+}
+#sec1 input,#sec1 button{
+    width: 410px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-width: 1px;
+    
+}
+#sec1 button{
+    background-color: goldenrod;
+    font-size: 25px;
+    font-weight: bold;
+    width: 450px;
+    border: none;
+}
+#sec2 h1{
+    font-size: 40px;
+    margin: 40px;
+}
+#services{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    flex: wrap;
+    gap: 100px;
+    margin: 40px;
+    text-align: left;
+    
+
+}
+#sec3{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 30px;
+    background-color: whitesmoke;
+    height: 600px;
+    
+     
+}
+
+#sec3 button{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+#sec3 p{
+    margin-top: 40px;
+}
+#sec4{
+    justify-content: space-around;
+    margin: auto;
+    display: flex;
+    height: 600px;
+    background-color: whitesmoke;
+    font-size: 40px;
+    
+
+}
+#sec4 p{
+    margin-top: 40px;
+}
+#sec4 button{
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+}
+#sec5{
+    height: 500px;
+    display: flex;
+    margin: auto;
+    font-size: 40px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#sec5 p{
+    margin-top: 20px;
+    font-size: 40px;
+}
+#Sec5>nav>a{
+    margin-top: 40px;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+#sec5>nav>a:hover{
+    color:lightslategray;
+}
+#sec6{
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+#nav1>a{
+     color: white;
+     font-size: 40px;
+     text-decoration: none;
+}
+.iimm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.iimm>p>nav>a{
+    text-decoration: none;
+}
